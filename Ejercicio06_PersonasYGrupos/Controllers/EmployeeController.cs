@@ -1,4 +1,5 @@
-﻿using Ejercicio06_PersonasYGrupos.Services;
+﻿using Ejercicio06_PersonasYGrupos.Models;
+using Ejercicio06_PersonasYGrupos.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ejercicio06_PersonasYGrupos.Controllers
@@ -87,6 +88,7 @@ namespace Ejercicio06_PersonasYGrupos.Controllers
                         g.Key.Sex
                     }).ToList();
 
+            
             ViewBag.Consulta5 = consulta5;
             ViewData["consulta5"] = consulta5;
 

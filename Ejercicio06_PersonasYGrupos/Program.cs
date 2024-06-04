@@ -1,6 +1,8 @@
 // TUTORIAL
 //https://www.youtube.com/watch?v=6J0-Yyfzh2c
 
+// https://www.youtube.com/watch?v=JSiF8wh-5HU
+
 using Ejercicio06_PersonasYGrupos.Services;
 
 IListaBuilder MiGenerador = new InicialBuilder();
